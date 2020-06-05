@@ -1,0 +1,120 @@
+.App {
+  text-align: center;
+  line-height: 30px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+*:before,
+*:after{
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.title{
+  width:100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: white;
+  line-height: normal;
+font-size: 50px;
+  font-family: 'Times New Roman', Times, fantasy;
+}
+.intro{
+  width: 100%;
+  height: 100vh;
+}
+h1,h2,h3,h4{
+  margin: o auto;
+}
+.header{
+position: absolute;
+top:0;
+left: 0;
+right:0;
+}
+.header-logo{
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  font-family: cursive,Arial, Helvetica;
+  left:60%;
+}
+.t{
+  font-family: cursive;
+  color: white;
+}
+.c {
+  font-family: cursive,Arial, Helvetica;
+  font-size: 24px;
+  text-align: center;
+  height: 50%;
+  width: 100%;
+  border: 1px solid #333; /* Рамка */
+  display: inline-block;
+  border:2;
+  border-radius: 20px;
+  border-color:white;
+  text-decoration: none; /* Убираем подчёркивание */
+  color: white; /* Цвет текста */
+}
+ .c:hover {
+  box-shadow: 0 0 5px rgba(0,0,0,0.3); /* Тень */
+  background: linear-gradient(to bottom, #a0b2ee, #e9e9ce); /* Градиент */
+  color: #a00;
+ }
+ .Seach{
+   
+   line-height: 30px;
+   text-align: center;
+   height: 50%;
+   width: 50%;
+ }
+ .Seach1{
+  height: 150%;
+  text-align: center;
+}
+table[td]{
+height: 100%;
+width: 100px;
+}
+table[tr]{
+  height: 1000%;
+  
+  }
+table{
+  width:100%;
+  height:100px;
+}

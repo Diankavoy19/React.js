@@ -1,0 +1,37 @@
+body{
+    background-image: url('./bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+}
+.item{
+    background-color: beige;
+    width: 30%;
+    text-align: center;
+    align-content: center;
+    left:30%;
+    border-radius: 40px 10px;
+    line-height: 30px;
+    font-family: fantasy;
+}
+.input-wrapper{
+    text-align: center;
+    align-content: center;
+    size: 30px;
+
+}
+.input[type="checkbox"]{
+    text-align: center;
+    align-content: center;
+    size: 60px;
+}
+.description{
+    font-family: fantasy;
+    line-height: normal;
+    font-size: 30px;
+}
+.t{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: normal;
+    font-size: 30px;
+}
